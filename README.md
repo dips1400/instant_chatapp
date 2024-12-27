@@ -23,8 +23,11 @@ Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Clone the repository: git clone <repository_url>
+
 Navigate to the project directory: cd chat-app
+
 Install dependencies: npm install
+
 Run application: npm start
 
 # Key features of this app are:
