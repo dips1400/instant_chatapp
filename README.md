@@ -1,8 +1,8 @@
-#Chat Application using InstantDB and IndexedDB
+# Chat Application using InstantDB and IndexedDB
 
 The whole app is built upon using instant DB, indexed DB, and Redux where instant db provides database you can subscribe to directly in the browser, indexed db persistently store data inside a user's browser, and redux helps to access data in any component. 
 
-#This project implements a basic chat application with features like:
+# This project implements a basic chat application with features like:
 
 User registration and login
 Contact list
