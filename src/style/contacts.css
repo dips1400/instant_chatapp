@@ -1,0 +1,192 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.profile{
+  width: 94%;
+  height: 80px;
+  background-color: rgba(67, 52, 117, 0.79);
+  justify-self: center;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile .circle{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid #3334;
+  margin-left: 1rem;
+}
+
+.profile h4{
+  font-size: larger;
+  color: white;
+}
+
+.profile .circle img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.search{
+  height: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input{
+  height: 30px;
+  width: 93%;
+  background-color: rgba(131, 119, 169, 0.79);
+  border: none;  
+  border-radius: 0.3rem;
+}
+
+.search ::placeholder{
+  color: #fff;
+  padding-left: 0.7rem;
+}
+
+.contact-list {
+    padding: 10px;
+    width: 93%;
+}
+
+.contact-list .contact-item{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.contact-list .items{
+  margin-left: auto;
+}
+
+.contact-list .items .call{
+  margin-left: 3px;
+}
+  
+.contact-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+  
+.contact-item:hover {
+    background-color: #f5f5f5;
+}
+  
+
+.chat-window .info{
+  width: 98%;
+  height: 70px;
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+  background-color: rgba(67, 52, 117, 0.79);
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.chat-window .info h4{
+  font-size: large;
+  margin-left: 0.5rem;
+}
+
+.chat-window .info .contact-image{
+  margin-left: 1rem;
+}
+
+.chat-window .info .itemss{
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.chat-window .info .itemss img{
+  margin-left: 0.7rem;
+  cursor: pointer;
+}
+
+/* css for modal */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.modal input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-actions button:first-child {
+  background:  rgba(67, 52, 117, 0.79);
+  color: #fff;
+}
+
+.modal-actions button:last-child {
+  background: #cecece;
+  color: #000;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.adduser button{
+  background-color: rgba(67, 52, 117, 0.79);
+  width: 120px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.adduser button:hover{
+  background-color: #2c244d;
+}
